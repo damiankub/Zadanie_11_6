@@ -1,0 +1,35 @@
+.board {
+  text-align: center; }
+  .board .column-container .column {
+    display: inline-table;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+    border: 1px solid;
+    background-color: gray;
+    text-align: left; }
+    .board .column-container .column ul {
+      list-style: none;
+      padding: 0;
+      text-align: left; }
+      .board .column-container .column ul li {
+        background-color: green;
+        padding: 20px 10px 20px 10px; }
+        .board .column-container .column ul li p {
+          display: inline; }
+    .board .column-container .column .btn-delete {
+      margin-right: 30px;
+      border-radius: 50%;
+      height: 30px;
+      width: 30px;
+      border: 1px solid #000;
+      background-color: blue; }
+      .board .column-container .column .btn-delete:hover {
+        background-color: red; }
+    .board .column-container .column .add-card {
+      border: 1px solid;
+      border-radius: 5px;
+      padding: 10px; }
+    .board .column-container .column .card-placeholder {
+      border: 3px dotted; }
+
+/*# sourceMappingURL=style.css.map */
