@@ -10,7 +10,8 @@
     .board .column-container .column ul {
       list-style: none;
       padding: 0;
-      text-align: left; }
+      text-align: left;
+      min-height: 100px; }
       .board .column-container .column ul li {
         background-color: green;
         padding: 20px 10px 20px 10px; }
